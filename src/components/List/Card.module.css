@@ -1,0 +1,28 @@
+.card_custom{
+    height: 200px;
+    border: 1px solid var(--primary);
+    position: relative;
+}
+
+
+.card_custom > p{
+    position: absolute;
+    bottom: 3%;
+    left: 3%;
+    color: var(--secondary);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.card_custom:hover > p {
+    opacity: 1;
+}
+
+.card_custom > img{
+    transition: 0.5s;
+}
+
+.card_custom:hover > img{
+
+    filter: brightness(0.3);
+}

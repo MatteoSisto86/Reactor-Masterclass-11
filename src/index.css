@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Montserrat", sans-serif;
+}
+
+h1, h2, h3, h4, .h1, .h2, .h3, .h4{
+    font-family: "Electrolize", sans-serif;
+}
+
+:root{
+    --primary: #333333;
+    --secondary: #eeeeee;
+    --accent: #fd6a02;
+}
+
+body{
+    color: var(--primary);
+    background-color: var(--secondary);
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+.bg-primaryC{
+    background-color: var(--primary);
+}
+
+.text-secondaryC{
+    color: var(--secondary);
+}
+
+.text-accentC{
+    color: var(--accent);
+}
+
+.bg-secondaryC{
+    color: var(--secondary);
+}
+
+.border_bottom_secondaryC{
+    border-bottom: 2px solid var(--secondary);
+}
+
+.navbar{
+    height: 70px;
+}
+
+.nav-link{
+    color: var(--secondary);
+}
+
+.nav-link:hover{
+    color: var(--accent);
+}
+
+.nav-link:focus{
+    color: var(--accent);
+}
+
+.auth_form{
+    background-color: var(--primary);
+    color: var(--secondary);
+
+}
+
+.auth_input{
+    height: 40px;
+    width: 80%;
+
+}
+
+.auth_button{
+    padding: 20px 30px;
+    border: 2px solid var(--secondary);
+    background-color: transparent;
+    color: var(--secondary);
+}
+
+.profile_button{
+    padding: 20px 30px;
+    border: 2px solid var(--secondary);
+    background-color: var(--primary);
+    color: var(--secondary);
+}
+
+.pointer{
+    cursor: pointer;
+}

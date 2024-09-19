@@ -1,0 +1,22 @@
+.show_reviews{
+    height: 500px;
+    border: 1px solid #fd6a02;
+    padding: 10px;
+}
+
+.input_reviews{
+    width: 80%;
+    height: 50px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.button_reviews{
+    width: 15%;
+    height: 50px;
+    background-color: #fd6a02;
+    color: #eeeeee;
+    margin-top: 10px;
+    border: none;
+    margin-left: 5%;
+}

@@ -1,0 +1,9 @@
+.sidebar_link{
+    display: block;
+    color: var(--secondary);
+    cursor: pointer;
+}
+
+.sidebar_link:hover{
+    color: var(--accent);
+}
